@@ -27,6 +27,19 @@ Data visualizations we make for others versus data visualizations we make for ou
 
 "The greatest value of a picture is when it forces us to notice what we never expected to see." - John Tukey, 1977
 
+
+## John Tukey
+<div class="columns-2">
+> "The greatest value of a picture is when it forces us to notice what we never expected to see." - John Tukey, 1977
+
+<div class="centered"><img src="tukey-EDA-cover.jpg" height="500"></div>
+</div>
+
+
+## Example: boxplots
+<div class="centered"><img src="tukey-boxplot.jpg" height="500"></div>
+
+
 ## Data for this talk
 ```{r loaddata}
 library(NHANES)
@@ -48,13 +61,15 @@ str(NHANES_ltd)
 
 ## outline
 
-Manyvariate plots
+Multivariate plots
+
  - CSV fingerprint
  - pairs plots options
  - Table plot
  - Parallel plots
  
 Lower-variate plots
+
  - Faceting
  - Heat maps, contour plots
  - Graphical inference
@@ -149,4 +164,3 @@ qplot(Education, SexAge, data=NHANES_ltd) %+% lineup(null_permute('SexAge'), NHA
 decrypt("OlCE bQTQ Aw GWPATAWw vr")
 ```
 
-# Thank you!
